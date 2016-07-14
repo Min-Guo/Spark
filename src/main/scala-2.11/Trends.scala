@@ -20,12 +20,21 @@ object TrendingTopics {
     val trends = twitter.getPlaceTrends(23424977);
     var trendingWords: ArrayBuffer[String] = new ArrayBuffer[String]()
     for (i <- trends.getTrends()) {
-      trendingWords += i.getName();
+      trendingWords += i.getName()
     }
     return trendingWords;
   }
+
+  def parseTopics(f: ArrayBuffer[String]): ArrayBuffer[String] = {
+    val noTagWords: ArrayBuffer[String] = new ArrayBuffer[String]();
+    for (i <- f) {
+      noTagWords += i.filterNot(_ == '#')
+    }
+    return noTagWords
+  }
+
   def main(args: Array[String]): Unit = {
-    val words: ArrayBuffer[String] = getTrends();
+    val words: ArrayBuffer[String] = parseTopics(getTrends());
     for (i <- words) {
       System.out.println(i);
     }
