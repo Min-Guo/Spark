@@ -19,8 +19,11 @@ name hashing:
 1 items
 0 -> true
 products:
-3 items
-/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> /Users/Min/NYU/Spark/target/scala-2.11/classes/TrendingTopics$$anonfun$main$1.class
+6 items
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> /Users/Min/NYU/Spark/target/scala-2.11/classes/TrendingTopics$$anonfun$getTrends$1.class
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> /Users/Min/NYU/Spark/target/scala-2.11/classes/TrendingTopics$$anonfun$parseTopics$1$$anonfun$apply$1.class
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> /Users/Min/NYU/Spark/target/scala-2.11/classes/TrendingTopics$$anonfun$parseTopics$1.class
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> /Users/Min/NYU/Spark/target/scala-2.11/classes/TrendingTopics$$anonfun$searchQuery$1.class
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> /Users/Min/NYU/Spark/target/scala-2.11/classes/TrendingTopics$.class
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> /Users/Min/NYU/Spark/target/scala-2.11/classes/TrendingTopics.class
 binary dependencies:
@@ -45,56 +48,94 @@ inheritance internal dependencies:
 inheritance external dependencies:
 0 items
 class names:
-3 items
+6 items
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> TrendingTopics
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> TrendingTopics$
-/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> TrendingTopics$$anonfun$main$1
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> TrendingTopics$$anonfun$getTrends$1
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> TrendingTopics$$anonfun$parseTopics$1
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> TrendingTopics$$anonfun$parseTopics$1$$anonfun$apply$1
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> TrendingTopics$$anonfun$searchQuery$1
 used names:
-36 items
+68 items
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> +
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> +=
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> <init>
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> ==
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> AnyRef
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> Array
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> ArrayBuffer
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> ConfigurationBuilder
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> Predef
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> Query
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> QueryResult
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> Status
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> String
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> System
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> TrendingTopics
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> Trends
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> Twitter
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> TwitterException
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> TwitterFactory
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> Unit
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> augmentString
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> build
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> cb
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> collection
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> conf
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> f
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> filterNot
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> foreach
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> getInstance
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> getName
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> getPlaceTrends
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> getText
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> getTrends
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> getTweets
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> hasNext
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> i
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> it
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> iterator
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> java
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> lang
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> mutable
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> next
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> noTagWords
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> out
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> parseTopics
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> println
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> query
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> queryResult
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> refArrayOps
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> scala
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> search
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> searchQuery
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> setCount
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> setDebugEnabled
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> setOAuthAccessToken
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> setOAuthAccessTokenSecret
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> setOAuthConsumerKey
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> setOAuthConsumerSecret
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> status
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> te
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> tf
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> trendingWords
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> trends
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> tweets
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> twitter
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> twitter4j
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> while$1
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> words
 product stamps:
-3 items
-/Users/Min/NYU/Spark/target/scala-2.11/classes/TrendingTopics$$anonfun$main$1.class -> lastModified(1468526621000)
-/Users/Min/NYU/Spark/target/scala-2.11/classes/TrendingTopics$.class -> lastModified(1468526621000)
-/Users/Min/NYU/Spark/target/scala-2.11/classes/TrendingTopics.class -> lastModified(1468526621000)
+6 items
+/Users/Min/NYU/Spark/target/scala-2.11/classes/TrendingTopics$$anonfun$getTrends$1.class -> lastModified(1468540526000)
+/Users/Min/NYU/Spark/target/scala-2.11/classes/TrendingTopics$$anonfun$parseTopics$1$$anonfun$apply$1.class -> lastModified(1468540526000)
+/Users/Min/NYU/Spark/target/scala-2.11/classes/TrendingTopics$$anonfun$parseTopics$1.class -> lastModified(1468540526000)
+/Users/Min/NYU/Spark/target/scala-2.11/classes/TrendingTopics$$anonfun$searchQuery$1.class -> lastModified(1468540526000)
+/Users/Min/NYU/Spark/target/scala-2.11/classes/TrendingTopics$.class -> lastModified(1468540526000)
+/Users/Min/NYU/Spark/target/scala-2.11/classes/TrendingTopics.class -> lastModified(1468540526000)
 source stamps:
 1 items
-/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> hash(f05550cb75c599bce55cf7ce0e5108a0f2184176)
+/Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> hash(4d2f553594be628245c96222c1351a825c9257ac)
 binary stamps:
 3 items
 /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1438711540000)
@@ -104,11 +145,11 @@ class names:
 3 items
 /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
 /Users/Min/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> scala.Predef$
-/Users/Min/.ivy2/cache/org.twitter4j/twitter4j-core/jars/twitter4j-core-4.0.4.jar -> twitter4j.conf.ConfigurationBuilder
+/Users/Min/.ivy2/cache/org.twitter4j/twitter4j-core/jars/twitter4j-core-4.0.4.jar -> twitter4j.api.SearchResource
 internal apis:
 1 items
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHC1SeGJAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cLN2nUp0AAZub3RpZnlzcQB+AAxJ2tStdAAOVHJlbmRpbmdUb3BpY3NzcQB+AAzk8u0/dAAEd2FpdHNxAH4ADJ73vWV0AA0kYXNJbnN0YW5jZU9mc3EAfgAMelSuNXQABmVxdWFsc3NxAH4ADDiknDh0AAxhc0luc3RhbmNlT2ZzcQB+AAyVY62DdAAMc3luY2hyb25pemVkc3EAfgAMPHSG1nQADSRpc0luc3RhbmNlT2ZzcQB+AAxkwbI1dAAEbWFpbnNxAH4ADH3vypF0AAlub3RpZnlBbGxzcQB+AAz3CBaydAAMaXNJbnN0YW5jZU9mc3EAfgAMnkhGEHQAAj09c3EAfgAM189V33QABWNsb25lc3EAfgAMC91GbHQACHRvU3RyaW5nc3EAfgAMFhdNAHQAAiE9c3EAfgAMfAc99HQACGdldENsYXNzc3EAfgAMSS1PP3QAAm5lc3EAfgAM8RWivXQAAmVxc3EAfgAMZev2gHQAAiMjc3EAfgAM0Nn2WHQACGZpbmFsaXplc3EAfgAMIwK6JXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHEAfgARdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AWXhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWABwc3EAfgBdc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEFMAAlpbmhlcml0ZWRxAH4AQUwAB3BhcmVudHNxAH4AQXhxAH4AYXNxAH4AWABwc3EAfgBddXEAfgA8AAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBCcQB+AEt1cQB+AEwAAAAAc3EAfgBOAHEAfgAfdXEAfgBQAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGB0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBgc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB+dXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4Aa3hwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AU3QABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4AclsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AYHNxAH4AcXQABUFycmF5cQB+AHd1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AcXQABlN0cmluZ3NxAH4AdXNxAH4AeHVxAH4AewAAAANzcQB+AH10AARqYXZhc3EAfgB9dAAEbGFuZ3EAfgCCc3EAfgBYAHBzcQB+AF11cQB+ADwAAAAAc3EAfgBYAHBzcQB+AF11cQB+AJYAAAACc3EAfgBxdAAGT2JqZWN0cQB+AJpzcQB+AHF0AANBbnlxAH4Ad3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFV6wHjM3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AC4vVXNlcnMvTWluL05ZVS9TcGFyay90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAU8FVQy3XFmbzlXPfODlEIoPIYQXY=
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBpWbjSAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cO3NKaB0AAtwYXJzZVRvcGljc3NxAH4ADLN2nUp0AAZub3RpZnlzcQB+AAzqB0dQdAALc2VhcmNoUXVlcnlzcQB+AAxJ2tStdAAOVHJlbmRpbmdUb3BpY3NzcQB+AAzk8u0/dAAEd2FpdHNxAH4ADJ73vWV0AA0kYXNJbnN0YW5jZU9mc3EAfgAMelSuNXQABmVxdWFsc3NxAH4ADDiknDh0AAxhc0luc3RhbmNlT2ZzcQB+AAyVY62DdAAMc3luY2hyb25pemVkc3EAfgAMPHSG1nQADSRpc0luc3RhbmNlT2ZzcQB+AAxkwbI1dAAEbWFpbnNxAH4ADH3vypF0AAlub3RpZnlBbGxzcQB+AAz3CBaydAAMaXNJbnN0YW5jZU9mc3EAfgAMnkhGEHQAAj09c3EAfgAM189V33QABWNsb25lc3EAfgAMC91GbHQACHRvU3RyaW5nc3EAfgAMFhdNAHQAAiE9c3EAfgAMfAc99HQACGdldENsYXNzc3EAfgAMSS1PP3QAAm5lc3EAfgAMzGB/aHQACWdldFRyZW5kc3NxAH4ADPEVor10AAJlcXNxAH4ADGXr9oB0AAIjI3NxAH4ADNDZ9lh0AAhmaW5hbGl6ZXNxAH4ADCMCuiV0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cABxAH4AFXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4AXgFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AR0wACWluaGVyaXRlZHEAfgBHTAAHcGFyZW50c3EAfgBHeHEAfgBlc3EAfgBeAXVxAH4AQgAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4ASHEAfgBRdXEAfgBSAAAAAHNxAH4AVABxAH4AI3VxAH4AVgAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBkdAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AZHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AgHVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AG14cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AFl0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AHRbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGRzcQB+AHN0AAVBcnJheXEAfgB5dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AHN0AAZTdHJpbmdzcQB+AHdzcQB+AHp1cQB+AH0AAAADc3EAfgB/dAAEamF2YXNxAH4Af3QABGxhbmdxAH4AhHBzcQB+AF4BdXEAfgBCAAAAAHBzcQB+AF4BdXEAfgCYAAAAAnNxAH4Ac3QABk9iamVjdHEAfgCcc3EAfgBzdAADQW55cQB+AHlwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFV69YSOXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AC4vVXNlcnMvTWluL05ZVS9TcGFyay90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUTS9VNZS+YoJFyWIiwTUaglySV6w=
 external apis:
 0 items
 source infos:
@@ -116,6 +157,9 @@ source infos:
 /Users/Min/NYU/Spark/src/main/scala-2.11/Trends.scala -> 
 AAAAAAAAAAA=
 compilations:
-2 items
+5 items
 0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVesAqqF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQALi9Vc2Vycy9NaW4vTllVL1NwYXJrL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
 1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVesB4zN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQALi9Vc2Vycy9NaW4vTllVL1NwYXJrL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVeuxezR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQALi9Vc2Vycy9NaW4vTllVL1NwYXJrL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVevT3z91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQALi9Vc2Vycy9NaW4vTllVL1NwYXJrL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+4 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVevWEjl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQALi9Vc2Vycy9NaW4vTllVL1NwYXJrL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
