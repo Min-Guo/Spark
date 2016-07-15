@@ -1,0 +1,15 @@
+[0m[[0minfo[0m] [0mPackaging /Users/Min/NYU/Spark/target/scala-2.11/spark_2.11-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	TrendingTopics$$anonfun$searchQuery$1.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Min/NYU/Spark/target/scala-2.11/classes/TrendingTopics$$anonfun$searchQuery$1.class[0m
+[0m[[0mdebug[0m] [0m	TrendingTopics.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Min/NYU/Spark/target/scala-2.11/classes/TrendingTopics.class[0m
+[0m[[0mdebug[0m] [0m	TrendingTopics$$anonfun$parseTopics$1.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Min/NYU/Spark/target/scala-2.11/classes/TrendingTopics$$anonfun$parseTopics$1.class[0m
+[0m[[0mdebug[0m] [0m	TrendingTopics$$anonfun$parseTopics$1$$anonfun$apply$1.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Min/NYU/Spark/target/scala-2.11/classes/TrendingTopics$$anonfun$parseTopics$1$$anonfun$apply$1.class[0m
+[0m[[0mdebug[0m] [0m	TrendingTopics$$anonfun$getTrends$1.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Min/NYU/Spark/target/scala-2.11/classes/TrendingTopics$$anonfun$getTrends$1.class[0m
+[0m[[0mdebug[0m] [0m	TrendingTopics$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Min/NYU/Spark/target/scala-2.11/classes/TrendingTopics$.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

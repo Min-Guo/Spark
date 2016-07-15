@@ -48,6 +48,7 @@ object TrendingTopics {
       val tf = new TwitterFactory(cb.build())
       val twitter = tf.getInstance()
       val query = new Query(i)
+      query.setLang("en")
       query.setCount(10)
       try {
         val queryResult = twitter.search(query)
@@ -55,9 +56,6 @@ object TrendingTopics {
         val it = tweets.iterator();
         while (it.hasNext()) {
           val status = it.next()
-          //val country = status.getPlace()
-          //val location = status.getPlace().getCountry().equals("Germany")
-          System.out.println(i)
           System.out.println(status.getText())
 
         }
