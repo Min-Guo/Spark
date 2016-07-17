@@ -4,7 +4,7 @@
 		module="spark_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160714130337"
+		publication="20160715190525"
 	>
 		<description>
 		Spark
@@ -35,5 +35,6 @@
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.8" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.twitter4j" name="twitter4j-core" rev="4.0.4" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-core_2.11" rev="1.6.2" conf="provided->default(compile)"/>
 	</dependencies>
 </ivy-module>
